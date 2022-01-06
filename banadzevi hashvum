@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int a, b, f, x;
+	cout << "a=" ;
+	cin >> a;
+	cout << "b=" ;
+	cin >> b;
+	cout << "f=" ;
+	cin >> f;
+	cout << "hashvum enq hetevyal banadzevov" << " (a + b - f / a) + f * a * a - (a + b)" << endl;
+
+	cout << "x=" << (a + b - f / a) + f * a * a - (a + b);
+	return 0;
+
+
+
+}

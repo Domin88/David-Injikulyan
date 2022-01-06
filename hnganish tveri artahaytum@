@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int num;
+
+int main() {
+	cout << "NErmuceq hnganish tiv@: ";
+	cin >> num;
+	if (num < 10000 || num > 99999) {
+		cout << "tivy hnganish che.";
+		return 1;
+	}
+	cout << "1 tivy =  " << num / 10000 << endl;
+	cout << "2 tivy =  " << num / 1000 % 10 << endl;
+	cout << "3 tivy =  " << num / 100 % 10 << endl;
+	cout << "4 tivy =  " << num / 10 % 10 << endl;
+	cout << "5 tivy =  " << num % 10 << endl;
+}

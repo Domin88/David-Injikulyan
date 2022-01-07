@@ -1,14 +1,12 @@
 #include <iostream>
 using namespace std;
 int main() {
-
-	int n;
-	float a = 1000;
-	cout << "nermuceq metry  ";
-	cin >> n;
-	cout << n << "  metry klini  " << n / a<< "  kilometr";
+	int a;
+	cout<< "Nermuceq simvoli hamary: ";
+	cin >> a;
+	cout << "patasxany  " << static_cast<char>(a) << endl;
 	return 0;
-
-
-
 }
+
+
+

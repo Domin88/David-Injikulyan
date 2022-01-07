@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+	char symvol;
+	cout << "nermuceq poqratary  ";
+	cin >> symvol;
+	cout << "mecatarn e  " << (char)toupper(symvol) << endl;
+	return 0;
+
+
+}

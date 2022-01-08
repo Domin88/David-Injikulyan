@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+	int k, k2;
+	float k1;
+	cout << " nermuceq k n ";
+	cin >> k;
+	if (k > 99 && k < 10) {
+		cout << " sxal mutqagrum";
+	}
+
+
+	k1 = k % 10;
+	k2 = k / 10;
+	if (k1 > k2) {
+		cout << k1 << "mecne " << endl;
+		cout << k2 << " poqrn e " << endl;
+
+	}
+	else if (k2 > k1) {
+		cout << k2 << " mec e" << endl;
+		cout << k1 << " poqr e" << endl;
+	}
+	else
+		cout << "havasar en";
+
+
+	return 0;
+
+
+
+}

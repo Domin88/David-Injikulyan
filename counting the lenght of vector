@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main() {
+
+	double x, y, z;
+	double n = 2;
+	
+
+	cout << " Nemuceq X " << endl;
+	cin >> x;
+	cout << " Nermuceq Y" << endl;
+	cin >> y;
+	cout << " Nermuceq Z" << endl;
+	cin >> z;
+	float m = sqrt (pow(x, n) + pow(y, n) + pow(z, n));
+	cout <<"The lenght of vectror "<<"="<< m;
+
+
+
+
+
+}
